@@ -607,7 +607,7 @@ if ($command == '/menu') {
     );
 }
 if ($type == 'join') {
-    $text = "ســ͢͜͡✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ـلــام دوســ͢͜͡✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ـتــانــ      از ایــنــڪــه م͢͜͡ـ✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ــن را بــه گـ͢͜͡✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ـــروه خــودتـ͢͜͡✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ـون دعــوت ڪــردیـ͢͜͡✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ـــد     مــمــنــونـ͢͜͡✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ــمــ       امــیـ͢͜͡✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ـدوارم  لــحــظـ͢͜͡✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ــات خــوبــی را   در ڪــنــ͢͜͡✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ــار هم ســپــری ڪــنــیــم :)";
+    $text = "ســ͢͜͡✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ـلــام دوســ͢͜͡✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ـتــانــ      از ایــنــڪــه م͢͜͡ـ✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ــن را بــه گـ͢͜͡✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ـــروه خــودتـ͢͜͡✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ـون دعــوت ڪــردیـ͢͜͡✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ـــد     مــمــنــونـ͢͜͡✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ــمــ       امــیـ͢͜͡✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ـدوارم  لــحــظـ͢͜͡✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ــات خــوبــی را   در ڪــنــ͢͜͡✾ٜٜٜٜٜٜٖٖٖٖٜ̂̂̂̂̂̂͢͜͡✾ــار هم ســپــری ڪــنــیــم :)\n\n";
     $balas = array(
         'replyToken' => $replyToken,
         'messages' => array(
@@ -1685,30 +1685,31 @@ function dosa3(){
 //show menu, saat join dan command,menu
 if ($type == 'join' || $command == 'Help') {
     $text .= "♥Ƥєяѕιαη♥вσт♥\n\n";
-    $text .= "|| -animals [text]\n";
-    $text .= "|| -animasi [text]\n";
-    $text .= "|| -mangals [text]\n";
-    $text .= "|| -manga [text]\n";
-    $text .= "|| -movie [text]\n";
-    $text .= "|| -film [text]\n";
-    $text .= "|| -convert [link]\n";
-    $text .= "|| -say [text]\n";
-    $text .= "|| -music[text]\n";
-    $text .= "|| -lirik [lagu]\n";
-    $text .= "|| -shalat [namakota]\n";
-    $text .= "|| -zodiak [tanggallahir]\n";
-    $text .= "|| -lokasi [namakota]\n";
-    $text .= "|| -time [namakota]\n";
-    $text .= "|| -kalender [namakota]\n";
-    $text .= "|| -cuaca [namakota]\n";
-    $text .= "|| -def [text]\n";
-    $text .= "|| -qiblat [namakota]\n";
-    $text .= "|| -playstore [namaapk]\n";
-    $text .= "|| -kerangajaib\n";
-    $text .= "|| -youtube [txt]\n";
-    $text .= "|| -ytlink [txt]\n";
-    $text .= "|| -gitclone [txt]\n";
-    $text .= "[KONTAK CREATOR]\n";
+    $text .= "「Keyword ★ᖼᗱO꓅★~」\n\n";
+    $text .= "- Help\n";
+    $text .= "- /jam \n";
+    $text .= "- /quotes \n";
+    $text .= "- /say [teks] \n";
+    $text .= "- /definition [teks] \n";
+    $text .= "- /cooltext [teks] \n";
+    $text .= "- /shalat [lokasi] \n";
+    $text .= "- /qiblat [lokasi] \n";
+    $text .= "- /film [teks] \n";
+    $text .= "- /qr [teks] \n";
+    $text .= "- /neon [teks] \n";
+    $text .= "- /ahli [nama] \n";
+    $text .= "- /arti-nama [nama] \n";
+    $text .= "- /light [teks] \n";
+    $text .= "- /film-syn [Judul] \n";
+    $text .= "- /lirik [Judul] \n";
+    $text .= "- /wikipedia [Judul] \n";
+    $text .= "- /brainly [pertanyaan] \n";
+    $text .= "- /youtube [Judul] \n";
+    $text .= "- /zodiak [tanggal lahir] \n";
+    $text .= "- /instagram [unsername] \n";
+    $text .= "- /jadwaltv [stasiun] \n";
+    $text .= "- /creator \n";
+    $text .= "\n「Done~」";
     $text .= "http://line.me/ti/p/~m_bw\n";
     $balas = array(
         'replyToken' => $replyToken,
@@ -2587,9 +2588,288 @@ if($message['type']=='text') {
         );
     }
 }
-#----------------------------------#
+#----------------------------------##==================================#
 if($message['type']=='text') {
-        if ($command == '@❎ᖼOᗱᗴℕ􀄓􏿿􀌂􀄸􏿿✔ ' || $command == '@❎ℳ〄乌Ξℕ􀄓􏿿􀌂􀄸􏿿✔ ') {
+        if ($command == 'وایسا' || $command == 'وایس ') {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+                      'type' => 'template',
+                      'altText' => '☻▬═★ᖼOᗱᗴℕ★═▬☻',
+                      'template' => 
+                      array (
+                        'type' => 'image_carousel',
+                        'columns' => 
+                        array (
+                          0 => 
+                          array (
+                            'imageUrl' => 'https://lh3.googleusercontent.com/-b6GKzuAzRiI/XuNxM0SlUDI/AAAAAAAAFQQ/52_uWAxcbVQDXNNAYo7ABaqqJXUQx2zaACK8BGAsYHg/s300/2020-06-12.gif',
+                            'action' => 
+                            array (
+                              'type' => 'message',
+                              'label' => 'ᖼOᗱᗴℕ',
+                              'text' => '☻▬═★ᖼOᗱᗴℕ★═▬☻',
+                            ),
+                          ),
+                        ),
+                      ),
+                    )
+            )
+        );
+    }
+}
+#--------------------------#
+if($message['type']=='text') {
+        if ($command == 'وقت بخیر' || $command == 'وقت بخیر ') {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+                      'type' => 'template',
+                      'altText' => '☻▬═★ᖼOᗱᗴℕ★═▬☻',
+                      'template' => 
+                      array (
+                        'type' => 'image_carousel',
+                        'columns' => 
+                        array (
+                          0 => 
+                          array (
+                            'imageUrl' => 'https://lh3.googleusercontent.com/-sZqdK7RGlEU/XsxWWk6NUYI/AAAAAAAAFC4/FQAkH9G4fjo7eRsblHCcvLuJsNhG-s_XwCK8BGAsYHg/s412/2020-05-25.gif',
+                            'action' => 
+                            array (
+                              'type' => 'message',
+                              'label' => 'ᖼOᗱᗴℕ',
+                              'text' => '☻▬═★ᖼOᗱᗴℕ★═▬☻',
+                            ),
+                          ),
+                        ),
+                      ),
+                    )
+            )
+        );
+    }
+}
+#--------------------------#
+if($message['type']=='text') {
+        if ($command == 'احسنت' || $command == 'احسنت ') {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+                      'type' => 'template',
+                      'altText' => '☻▬═★ᖼOᗱᗴℕ★═▬☻',
+                      'template' => 
+                      array (
+                        'type' => 'image_carousel',
+                        'columns' => 
+                        array (
+                          0 => 
+                          array (
+                            'imageUrl' => 'https://lh3.googleusercontent.com/-fh0YPYomrRs/XsxWPnNUw_I/AAAAAAAAFC0/WdH86sGFhZETBSD7Zxjv6oWSBSHpF2XlQCK8BGAsYHg/s468/2020-05-25.gif',
+                            'action' => 
+                            array (
+                              'type' => 'message',
+                              'label' => 'ᖼOᗱᗴℕ',
+                              'text' => '☻▬═★ᖼOᗱᗴℕ★═▬☻',
+                            ),
+                          ),
+                        ),
+                      ),
+                    )
+            )
+        );
+    }
+}
+#--------------------------#
+if($message['type']=='text') {
+        if ($command == 'سلام خوبی' || $command == 'سلام خوبی ') {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+                      'type' => 'template',
+                      'altText' => '☻▬═★ᖼOᗱᗴℕ★═▬☻',
+                      'template' => 
+                      array (
+                        'type' => 'image_carousel',
+                        'columns' => 
+                        array (
+                          0 => 
+                          array (
+                            'imageUrl' => 'https://lh3.googleusercontent.com/-CVQjow2WWq4/XsxWDe0PRSI/AAAAAAAAFCo/l9TeMpNeAH85vZLAMMpxAVNuVrdp1-ZewCK8BGAsYHg/s412/2020-05-25.gif',
+                            'action' => 
+                            array (
+                              'type' => 'message',
+                              'label' => 'ᖼOᗱᗴℕ',
+                              'text' => '☻▬═★ᖼOᗱᗴℕ★═▬☻',
+                            ),
+                          ),
+                        ),
+                      ),
+                    )
+            )
+        );
+    }
+}
+#--------------------------#
+if($message['type']=='text') {
+        if ($command == 'بی نظیری' || $command == 'بی نظیری ') {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+                      'type' => 'template',
+                      'altText' => '☻▬═★ᖼOᗱᗴℕ★═▬☻',
+                      'template' => 
+                      array (
+                        'type' => 'image_carousel',
+                        'columns' => 
+                        array (
+                          0 => 
+                          array (
+                            'imageUrl' => 'https://lh3.googleusercontent.com/-4wRZFxLcawg/XsxWBkfyyjI/AAAAAAAAFCk/6BrntmdXYcUNaOyUlNBSBBigwsASCzVBgCK8BGAsYHg/s410/2020-05-25.gif',
+                            'action' => 
+                            array (
+                              'type' => 'message',
+                              'label' => 'ᖼOᗱᗴℕ',
+                              'text' => '☻▬═★ᖼOᗱᗴℕ★═▬☻',
+                            ),
+                          ),
+                        ),
+                      ),
+                    )
+            )
+        );
+    }
+}
+#--------------------------#
+if($message['type']=='text') {
+        if ($command == 'عالی مثل همیشه' || $command == 'عالی مثل همیشه ') {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+                      'type' => 'template',
+                      'altText' => '☻▬═★ᖼOᗱᗴℕ★═▬☻',
+                      'template' => 
+                      array (
+                        'type' => 'image_carousel',
+                        'columns' => 
+                        array (
+                          0 => 
+                          array (
+                            'imageUrl' => 'https://lh3.googleusercontent.com/-NbWDI779Eu8/XsxVsotfRfI/AAAAAAAAFCM/6LjyYp4ymDc9hKLc7qITvZ7ZZzB_9dqdQCK8BGAsYHg/s512/2020-05-25.gif',
+                            'action' => 
+                            array (
+                              'type' => 'message',
+                              'label' => 'ᖼOᗱᗴℕ',
+                              'text' => '☻▬═★ᖼOᗱᗴℕ★═▬☻',
+                            ),
+                          ),
+                        ),
+                      ),
+                    )
+            )
+        );
+    }
+}
+#--------------------------#
+if($message['type']=='text') {
+        if ($command == 'ولکام' || $command == 'ولکام ') {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+                      'type' => 'template',
+                      'altText' => '☻▬═★ᖼOᗱᗴℕ★═▬☻',
+                      'template' => 
+                      array (
+                        'type' => 'image_carousel',
+                        'columns' => 
+                        array (
+                          0 => 
+                          array (
+                            'imageUrl' => 'https://lh3.googleusercontent.com/-_mjNDl7LajE/XuJAEA-DiiI/AAAAAAAAFNc/SuKKiKH4E2UJ84cuRPG1G1YT38cZZpA1QCK8BGAsYHg/s499/2020-06-11.gif',
+                            'action' => 
+                            array (
+                              'type' => 'message',
+                              'label' => 'ᖼOᗱᗴℕ',
+                              'text' => '☻▬═★ᖼOᗱᗴℕ★═▬☻',
+                            ),
+                          ),
+                        ),
+                      ),
+                    )
+            )
+        );
+    }
+}
+#--------------------------#
+if($message['type']=='text') {
+        if ($command == 'ایول' || $command == 'ایول ') {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+                      'type' => 'template',
+                      'altText' => '☻▬═★ᖼOᗱᗴℕ★═▬☻',
+                      'template' => 
+                      array (
+                        'type' => 'image_carousel',
+                        'columns' => 
+                        array (
+                          0 => 
+                          array (
+                            'imageUrl' => 'https://lh3.googleusercontent.com/-bSNJxMqpgQ8/XsaOFKe--rI/AAAAAAAAHt0/bsIOR71ix1Us_ocBc4DglZoYcVf1RIaKACK8BGAsYHg/s344/2020-05-21.gif',
+                            'action' => 
+                            array (
+                              'type' => 'message',
+                              'label' => 'ᖼOᗱᗴℕ',
+                              'text' => '☻▬═★ᖼOᗱᗴℕ★═▬☻',
+                            ),
+                          ),
+                        ),
+                      ),
+                    )
+            )
+        );
+    }
+}
+#--------------------------#
+if($message['type']=='text') {
+        if ($command == 'نخسته' || $command == 'نخسته ') {
+        $balas = array(
+            'replyToken' => $replyToken,
+            'messages' => array(
+                array (
+                      'type' => 'template',
+                      'altText' => '☻▬═★ᖼOᗱᗴℕ★═▬☻',
+                      'template' => 
+                      array (
+                        'type' => 'image_carousel',
+                        'columns' => 
+                        array (
+                          0 => 
+                          array (
+                            'imageUrl' => 'https://lh3.googleusercontent.com/-Sj31oBDqmS4/XsaOQdF0M2I/AAAAAAAAE2k/JcLvjdmeaZYaRyVvXV7Q66-NrStblV7dQCK8BGAsYHg/s402/2020-05-21.gif',
+                            'action' => 
+                            array (
+                              'type' => 'message',
+                              'label' => 'ᖼOᗱᗴℕ',
+                              'text' => '☻▬═★ᖼOᗱᗴℕ★═▬☻',
+                            ),
+                          ),
+                        ),
+                      ),
+                    )
+            )
+        );
+    }
+}
+#--------------------------#
+if($message['type']=='text') {
+        if ($command == '@❎ᖼOᗱᗴℕ ' || $command == '@❎ℳ〄乌Ξℕ ') {
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
