@@ -2589,7 +2589,7 @@ if($message['type']=='text') {
 }
 #----------------------------------#
 if($message['type']=='text') {
-        if ($command == 'mosn' || $command == 'Mosn') {
+        if ($command == '@❎ᖼOᗱᗴℕ􀄓􏿿􀌂􀄸􏿿✔ ' || $command == '@❎ℳ〄乌Ξℕ􀄓􏿿􀌂􀄸􏿿✔ ') {
         $balas = array(
             'replyToken' => $replyToken,
             'messages' => array(
