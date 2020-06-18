@@ -39,7 +39,7 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-        if ($command == '2' || $command == '1' ) {
+        if ($command == '3' || $command == '4' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
@@ -54,7 +54,7 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-        if ($command == '2' || $command == '1' ) {
+        if ($command == 'a' || $command == 'b' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
@@ -69,7 +69,7 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-        if ($command == '2' || $command == '1' ) {
+        if ($command == 'c' || $command == 'd' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
@@ -84,7 +84,7 @@ if($message['type']=='text') {
 }
 //pesan bergambar
 if($message['type']=='text') {
-        if ($command == '2' || $command == '1' ) {
+        if ($command == 'A' || $command == 'B' ) {
 
         $balas = array(
             'replyToken' => $replyToken,
